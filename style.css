@@ -1,0 +1,141 @@
+body {
+  font-family: IBM Plex Mono;
+  font-style: monospace;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 160%;
+  letter-spacing: 0.03rem
+  cursor: url("cursor.svg"), default;
+}
+
+.container {
+  padding: 0;
+  width: 58vw;
+  margin: 0 auto 0 auto;
+  background-image: url("grid.svg");
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  font-size: 3.4375rem;
+  line-height: 130%;
+  font-weight: 400;
+  margin-bottom: 30px;
+  /* cursor: url("cursorLine.svg"), default; */
+}
+
+.project-block {
+  margin-bottom: 70px;
+}
+
+.project-description {
+  margin-bottom: 0px;
+  font-size: 22px;
+  line-height: 160%;
+}
+
+.navbar {
+  padding: 10px 0 0 0;
+  /* border-bottom: 2px solid black; */
+  /* margin-bottom: 55px;
+  background-color: #F9F8F4; */
+  margin-bottom: 70px;
+  background-color: none;
+}
+
+.navbar-brand {
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+}
+
+.nav-item {
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 5px;
+  margin-left: 90px;
+}
+
+.img-with-margin {
+  max-width: 100%;
+  margin-bottom: 70px;
+}
+
+.logo-block {
+  background-color: #070709;
+  border-radius: 7px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.logo-block :hover {
+  background-color: #121217;
+  border-radius: 7px;
+}
+
+.logo {
+  max-width: 100%;
+  height: auto;
+}
+
+.logo-description {
+  font-size: 1rem;
+  line-height: 145%;
+  margin-bottom: 60px;
+}
+
+.logo-day {
+  color: #737373;
+}
+
+
+/* MOBILE */
+
+@media (min-width: 280px) and (max-width: 576px) {
+
+  body {
+    font-size: 16px;
+  }
+
+  .container {
+    width: 100%;
+    padding: 5px 20px 0 20px;
+    background-image: url("gridMob.svg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  .navbar {
+    padding: 0;
+  }
+
+  .navbar-brand {
+    font-size: 16px;
+    color: #5c5c5c !important;
+    padding: 0px;
+  }
+
+  .project-block {
+    margin-bottom: 50px;
+  }
+
+  .project-description {
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .logo-block{
+    margin-bottom: 15px;
+  }
+
+  .logo-description {
+    font-size: 14px;
+    margin-bottom: 50px;
+  }
+
+}
