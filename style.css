@@ -1,8 +1,8 @@
 body {
-  font-family: IBM Plex Mono;
+  font-family: 'IBM Plex Mono', monospace;
   font-style: monospace;
   font-weight: 400;
-  font-size: 22px;
+  font-size: 18px;
   line-height: 160%;
   letter-spacing: 0.03rem
   cursor: url("cursor.svg"), default;
@@ -31,8 +31,9 @@ h1 {
 
 .project-description {
   margin-bottom: 0px;
-  font-size: 22px;
+  /* font-size: 18px; */
   line-height: 160%;
+  margin-bottom: 40px;
 }
 
 .navbar {
@@ -63,16 +64,16 @@ h1 {
 }
 
 .logo-block {
-  background-color: #070709;
+  background-color: #16171D;
   border-radius: 7px;
   text-align: center;
   margin-bottom: 25px;
 }
 
-.logo-block :hover {
+/* .logo-block :hover {
   background-color: #121217;
   border-radius: 7px;
-}
+} */
 
 .logo {
   max-width: 100%;
@@ -91,51 +92,3 @@ h1 {
 
 
 /* MOBILE */
-
-@media (min-width: 280px) and (max-width: 576px) {
-
-  body {
-    font-size: 16px;
-  }
-
-  .container {
-    width: 100%;
-    padding: 5px 20px 0 20px;
-    background-image: url("gridMob.svg");
-    background-size: cover;
-    background-position: center;
-  }
-
-  h1 {
-    font-size: 36px;
-  }
-
-  .navbar {
-    padding: 0;
-  }
-
-  .navbar-brand {
-    font-size: 16px;
-    color: #5c5c5c !important;
-    padding: 0px;
-  }
-
-  .project-block {
-    margin-bottom: 50px;
-  }
-
-  .project-description {
-    font-size: 16px;
-    font-weight: 400;
-  }
-
-  .logo-block{
-    margin-bottom: 15px;
-  }
-
-  .logo-description {
-    font-size: 14px;
-    margin-bottom: 50px;
-  }
-
-}
