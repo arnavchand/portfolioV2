@@ -52,15 +52,14 @@ body {
   font-size: 20px;
   line-height: 160%;
   letter-spacing: 0.07rem;
-  cursor: url("cursor.svg"), default;
 }
 
 h1 {
   font-family: 'IBM Plex Mono', monospace;
-  font-size: 50px;
+  font-size: 65px;
   line-height: 130%;
   letter-spacing: 0.02em;
-  margin-bottom: 30px;
+  margin-bottom: 80px;
   font-weight: 400;
 }
 
@@ -72,9 +71,10 @@ a {
 
 /* GENERAL (COMMON) CLASSES */
 
+
 .container {
   padding: 0;
-  width: 58vw;
+  width: 1080px;
   margin: 0 auto 0 auto;
   background-image: url("grid.svg");
   background-size: cover;
@@ -85,11 +85,47 @@ a {
   margin-bottom: 70px;
 }
 
+.project-duration {
+  font-size: 36px;
+  font-family: 'IBM Plex Mono', monospace;
+  letter-spacing: 0.02em;
+  text-align: right;
+  position: relative;
+  top: 200px;
+}
+
+.project-slogan {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 30px;
+  line-height: 130%;
+  letter-spacing: 0.02em;
+  font-weight: 400;
+  margin-bottom: 30px;
+  padding-right: 70px;
+}
+
+.project-info {
+  margin-bottom: 80px;
+}
+
+.project-info-block {
+  margin-bottom: 25px;
+}
+
+.project-info-heading {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+}
+
 .project-description {
   margin-bottom: 0px;
   font-size: 20px;
   line-height: 160%;
-  margin-bottom: 70px;
+  margin-bottom: 0;
+  padding-right: 70px;
 }
 
 .img-with-margin {
@@ -109,14 +145,14 @@ a {
 .project-block-heading {
   font-family: 'IBM Plex Mono', monospace;
   letter-spacing: 0.02em;
-  font-size: 28px;
+  font-size: 24px;
   line-height: 130%;
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 20px;
 }
 
-.project-block-para {
-  /* margin-bottom: 30px; */
+.project-block-text {
+  margin-bottom: 70px;
 }
 
 .heading-strip {
@@ -143,7 +179,14 @@ a {
   border: 1px solid #7e7e7e;
   color: #7e7e7e;
   height: 0;
-  margin: 0 0 100px 0;
+  margin: 0 0 80px 0;
+}
+
+.closing-line-light {
+  border: 1px solid #737373;
+  color: #737373;
+  height: 0;
+  margin: 0 0 80px 0;
 }
 
 .footer-text {

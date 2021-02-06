@@ -4,6 +4,10 @@
     display: block;
   }
 
+  .desktop-view {
+    display: none;
+  }
+
 
   /* NAVBAR CLASSES */
 
@@ -58,10 +62,10 @@
   }
 
   h1 {
-    font-size: 40px;
+    font-size: 36px;
     font-family: 'IBM Plex Mono', monospace;
     line-height: 130%;
-    margin-bottom: 30px;
+    margin-bottom: 30px
   }
 
   a {
@@ -85,6 +89,7 @@
     letter-spacing: 0.07rem;
     line-height: 160%;
     font-size: 17.6px;
+    padding: 0;
   }
 
   .project-image {
@@ -102,7 +107,7 @@
   }
 
   .project-block {
-    margin-bottom: 50px;
+    margin-bottom: 70px;
   }
 
   .project-block-heading {
@@ -114,8 +119,8 @@
     font-size: 17.6px;
   }
 
-  .project-block-para {
-    /* margin-bottom: 30px; */
+  .project-block-text {
+    margin-bottom: 40px;
   }
 
   .heading-strip {
@@ -127,6 +132,7 @@
     line-height: 130%;
     padding-top: 37px;
     margin-bottom: 60px;
+    padding-left: 15px;
   }
 
   .list-item {
@@ -242,7 +248,7 @@
     height: 55x;
     padding: 12px 30px 12px 30px;
     border-radius: 100px;
-    border: 2px solid #000000;
+    border: 1.5px solid #000000;
     font-size: 17.6px;
     font-family: 'IBM Plex Mono', monospace;
     letter-spacing: 0.02em;
