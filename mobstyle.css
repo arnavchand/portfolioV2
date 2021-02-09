@@ -15,7 +15,7 @@
     font-family: 'IBM Plex Mono', monospace;
     line-height: 130%;
     padding: 0;
-    font-size: 17.6px;
+    font-size: 16px;
     color: #7e7e7e;
   }
 
@@ -23,7 +23,7 @@
     font-family: 'IBM Plex Mono', monospace;
     line-height: 130%;
     padding: 0;
-    font-size: 17.6px;
+    font-size: 16px;
     color: #7e7e7e;
   }
 
@@ -35,7 +35,7 @@
     font-family: 'IBM Plex Mono', monospace;
     line-height: 130%;
     background-color: #16171D;
-    font-size: 17.6px;
+    font-size: 16px;
     height: 80px;
     padding: 27px 15px 0 15px;
     margin: 0 0 60px 0;
@@ -43,7 +43,7 @@
 
   .navigation-bar-light {
     background-color: #F6F6F6;
-    font-size: 17.6px;
+    font-size: 16px;
     height: 80px;
     padding: 27px 15px 0 15px;
     margin: 0 0 60px 0;
@@ -55,8 +55,8 @@
 
   body {
     font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 17.6px;
-    letter-spacing: 0.07rem;
+    font-size: 16px;
+    letter-spacing: 0.04rem;
     line-height: 160%;
     cursor: url("cursor.svg"), default;
   }
@@ -82,17 +82,19 @@
     background-image: url("gridMob.svg");
     background-size: cover;
     background-position: center;
+    margin-bottom: 0px;
   }
 
   .project-description {
     margin-bottom: 50px;
-    letter-spacing: 0.07rem;
+    letter-spacing: 0.04rem;
     line-height: 160%;
-    font-size: 17.6px;
+    font-size: 16px;
     padding: 0;
   }
 
   .project-image {
+    width: 100%;
     margin-bottom: 50px;
   }
 
@@ -107,7 +109,7 @@
   }
 
   .project-block {
-    margin-bottom: 70px;
+    margin-bottom: 60px;
   }
 
   .project-block-heading {
@@ -116,7 +118,7 @@
     line-height: 130%;
     font-weight: 600;
     margin-bottom: 20px;
-    font-size: 17.6px;
+    font-size: 16px;
   }
 
   .project-block-text {
@@ -138,6 +140,7 @@
   .list-item {
     margin-bottom: 20px;
   }
+
 
   /* _____________________ */
 
@@ -163,7 +166,7 @@
     margin-right: 0;
     margin-top: 50px;
     margin-bottom: 60px;
-    font-size: 17.6px;
+    font-size: 16px;
   }
 
   .email-id-block {
@@ -173,14 +176,14 @@
     padding: 0;
     /* padding-right: 0; */
     border-radius: 0 0 3px 3px;
-    font-size: 17.6px;
+    font-size: 16px;
   }
 
   .email-id {
     text-align: center;
     margin: 0 auto 0 auto;
     padding: 14px 0 15px 0;
-    font-size: 17.6px;
+    font-size: 16px;
   }
 
   .copy-button {
@@ -190,7 +193,7 @@
     padding: 0;
     /* padding-left: 0; */
     border-radius: 3px;
-    font-size: 17.6px;
+    font-size: 16px;
   }
 
   .copy-id {
@@ -199,7 +202,7 @@
     padding: 14px 0 15px 0;
     font-family: 'IBM Plex Mono', monospace;
     letter-spacing: 0.02rem;
-    font-size: 17.6px;
+    font-size: 16px;
   }
 
   .social-logos {
@@ -213,7 +216,7 @@
   .introduction {
     background-color: #f6f6f6;
     padding: 50px 15px 50px 15px;
-    font-size: 17.6px;
+    font-size: 16px;
     font-family: 'IBM Plex Sans', sans-serif;
     margin-bottom: 60px;
   }
@@ -237,10 +240,10 @@
 
   .project-description-home {
     font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 17.6px;
+    font-size: 16px;
     line-height: 160%;
     margin-bottom: 25px;
-    letter-spacing: 0.07em;
+    letter-spacing: 0.04rem;
     color: #000000;
   }
 
@@ -249,7 +252,7 @@
     padding: 12px 30px 12px 30px;
     border-radius: 100px;
     border: 1.5px solid #000000;
-    font-size: 17.6px;
+    font-size: 16px;
     font-family: 'IBM Plex Mono', monospace;
     letter-spacing: 0.02em;
     line-height: 130%;
@@ -282,16 +285,48 @@
 
   /* COOKING CLASSES */
 
-  .interview-carousel {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    background-color: #F0F0F0;
+
+
+  .carousel {
+    padding: 30px 0 30px 0;
+    overflow: auto;
+    white-space: nowrap;
+    background-color: #f6f6f6;
+    margin-bottom: 60px;
+    padding-left: 15px;
+    margin-top: 0px;
   }
 
-  .interview-slide {
-    width: 50%;
-    height: auto;
+  .carousel-slide {
+    width: 80%;
+    margin-right: 20px;
+    box-shadow: 0px 0px 84px 17px rgba(232,232,232,1);
   }
+
+  .solution-strip {
+    /* padding-left: 15px;
+    padding-right: 15px; */
+  }
+
+  .solution-strip-row {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    background-color: #f6f6f6;
+  }
+
+  .solution-strip-heading {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .solution-strip-text {
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: 0.04rem;
+  }
+
 
   /* _____________________ */
 
@@ -313,60 +348,10 @@
   .logo-day {
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 14px;
-    letter-spacing: 0.07rem;
+    letter-spacing: 0.04rem;
     color: #737373;
   }
 
 
 
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.tech-slideshow {
-  height: 200px;
-  max-width: 800px;
-  margin: 0 auto;
-  position: relative;
-  overflow: hidden;
-  transform: translate3d(0, 0, 0);
-}
-
-.tech-slideshow > div {
-  height: 200px;
-  width: 2526px;
-  background: url("images\cooking\intcarousel1.png");
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  transform: translate3d(0, 0, 0);
-}
-.tech-slideshow .mover-1 {
-  animation: moveSlideshow 12s linear infinite;
-}
-
-@keyframes moveSlideshow {
-  100% {
-    transform: translateX(-66.6666%);
-  }
 }
