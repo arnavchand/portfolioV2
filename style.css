@@ -1,0 +1,409 @@
+/* FONT EMBEDDING */
+@font-face {
+    font-family: "pn";
+    src: url("assets/fonts/PlacardNextMedium.woff") format('woff');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+@font-face {
+  font-family: "pn";
+  src: url("assets/fonts/PlacardNextBold.woff") format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* NAVBAR CLASSES */
+.navbar-brand {
+  font-family: 'pn', sans-serif;
+}
+
+/* GENERAL CLASSES */
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 160%;
+}
+
+p {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 160%;
+  /* margin-bottom: 100px; */
+}
+
+.container {
+  width: 880px;
+  padding: 0;
+}
+
+.row {
+  padding: 0;
+}
+
+.light-grey-section {
+  background-color: #FAFAFA;
+  padding-top: 120px;
+  padding-bottom: 100px;
+}
+
+.grey-section {
+  background-color: #0F0F0F;
+  padding-top: 120px;
+  padding-bottom: 100px;
+}
+
+.black-section {
+  background-color: transparent;
+  padding-top: 120px;
+  padding-bottom: 100px;
+}
+
+.mob-view {
+  display: none;
+}
+
+.laptop-view {
+  display: block;
+}
+
+h1 {
+  font-family: 'pn';
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: 0.01rem;
+  font-size: 80px;
+  margin-top: 110px;
+  margin-bottom: 80px;
+}
+
+h2 {
+  font-family: 'pn';
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: 0.01rem;
+  font-size: 64px;
+  margin-bottom: 100px;
+}
+
+h3 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 130%;
+  margin: 0 0 25px 0;
+}
+
+h4 {
+  font-size: 16px;
+  color: #707070;
+  font-weight: 600;
+}
+
+.highlight {
+  font-weight: 600;
+}
+
+.project-heading-block, .project-heading-block-dark {
+  background-color: transparent;
+}
+
+.project-banner {
+  width: 100%;
+  margin: 0;
+}
+
+.project-details, .project-details-dark {
+  padding: 120px 0 120px 0;
+  background-color: #FAFAFA;
+  margin-bottom: 120px;
+}
+
+.project-details-dark {
+  background-color: #0F0F0F;
+}
+
+.project-summary, .project-summary-dark {
+  font-size: 32px;
+  font-weight: 600;
+  color: #707070;
+  line-height: 140%;
+  margin: 0 0 30px 0;
+}
+
+.project-summary-dark {
+  color: #747F8D;
+}
+
+.project-details-row {
+  margin: 100px 0 0 0;
+  padding: 0;
+}
+
+.project-details-row-heading {
+  font-weight: 700;
+
+}
+
+.project-block {
+  margin-bottom: 120px;
+}
+
+.project-block-heading {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 130%;
+  margin-bottom: 25px;
+}
+
+.project-block-para {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 160%;
+  margin-bottom: 100px;
+}
+
+.img-no-margin {
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+.list-item {
+  margin-bottom: 20px;
+}
+
+.next-up-img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.next-up-project-name {
+  margin-bottom: 15px !important;
+}
+
+/* DLC CLASSES */
+
+.dlc-logo {
+  width: 100%;
+}
+
+.dlc-logo-block {
+  width: 100%;
+  background-color: #0F0F0F;
+  border-radius: 5px;
+  margin-bottom: 25px;
+}
+
+.dlc-description {
+  font-size: 16px;
+  line-height: 160%;
+  margin-bottom: 50px;
+}
+
+.dlc-day {
+  color: #747F8D;
+}
+
+/* C2A CLASSES */
+
+.c2a-img {
+  width: 100%;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+/* HCA CLASSES */
+
+.hca-persona-img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 280px) and (max-width: 576px) {
+
+  .mob-view{
+    display: block;
+  }
+
+  .laptop-view {
+    display: none;
+  }
+
+  .body {
+    font-size: 16px;
+  }
+
+  .container {
+    width: 100%;
+    padding: 0 20px 0 20px;
+  }
+
+  .grey-section {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+
+  h1 {
+    font-size: 58px;
+    margin: 0 0 25px 0;
+  }
+
+  h2 {
+    font-size: 44px;
+    margin: 0 0 70px 0;
+  }
+
+  p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 40px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  h4 {
+    font-size: 14px;
+    colour: #707070;
+  }
+
+  hr {
+    margin-bottom: 70px;
+  }
+
+  .project-heading-block {
+    background-color: #FAFAFA;
+    padding: 70px 0 70px 0;
+    margin-bottom: 0;
+  }
+
+  .project-heading-block-dark {
+    background-color: #0F0F0F;
+    padding: 70px 0 70px 0;
+    margin-bottom: 0;
+  }
+
+  .project-banner {
+    width: 100vw;
+    margin: 0;
+  }
+
+  .img-with-margin {
+    width: 100%;
+    margin-bottom: 70px;
+  }
+
+  .project-details-row {
+    margin: 70px 0 0 0;
+  }
+
+  .project-details, .project-details-dark {
+    padding: 0;
+    font-size: 16px;
+    background-color: transparent;
+    margin-bottom: 40px;
+  }
+
+  .project-details-dark {
+    background-color: transparent;
+    padding: 0;
+  }
+
+  .project-summary, .project-summary-dark {
+    font-size: 20px;
+    margin: 0;
+  }
+
+  .project-summary-dark {
+    color: #747F8D;
+  }
+
+  .project-block {
+    margin-bottom: 70px;
+  }
+
+  .project-block-heading {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 130%;
+    margin-bottom: 20px;
+  }
+
+  .project-block-para {
+    font-size: 16px;
+    margin-bottom: 40px;
+    line-height: 160%;
+    font-weight: 400;
+  }
+
+  .img-no-margin {
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .next-up-img {
+    margin-bottom: 25px;
+  }
+
+  /* DLC CLASSES */
+
+  .dlc-logo-block {
+    margin-bottom: 15px;
+  }
+
+  .dlc-description {
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+
+  /* C2A CLASSES */
+
+.c2a-mob-img {
+  width: 100%;
+  margin: 0 0 25px 0;
+}
+
+  /* HCA CLASSES */
+
+  .hca-carousel {
+    padding: 30px 0 30px 0;
+    overflow: auto;
+    white-space: nowrap;
+    background-color: #FAFAFA;
+    margin-bottom: 60px;
+    padding-left: 15px;
+    margin-top: 0px;
+  }
+
+  .hca-carousel-slide {
+    width: 80%;
+    margin-right: 20px;
+    /* box-shadow: 0px 0px 84px 17px rgba(232,232,232,1); */
+  }
+
+
+}
