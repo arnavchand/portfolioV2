@@ -1,0 +1,27 @@
+{
+  "name": "@nishanths/zoom.js",
+  "version": "3.1.0",
+  "description": "Medium.com-like image zoom with no dependencies (fork of fat/zoom.js)",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:nishanths/zoom.js.git"
+  },
+  "keywords": [
+    "zoom",
+    "image"
+  ],
+  "author": "nishanths <nishanth.gerrard@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nishanths/zoom.js/issues"
+  },
+  "homepage": "https://github.com/nishanths/zoom.js",
+  "devDependencies": {
+    "babel-cli": "6.18.0",
+    "babel-plugin-iife-wrap": "1.1.0",
+    "babel-preset-es2015-script": "1.1.0",
+    "uglifyjs": "2.4.10",
+    "webpack": "2.2.0-rc.3"
+  }
+}
