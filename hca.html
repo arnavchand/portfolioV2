@@ -5,9 +5,10 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1" name="viewport" />
   <title>Hands-Free Cooking Assistant</title>
+  <link rel="shortcut icon" type="image/jpg" href="assets\hca\favicon.ico"/>
 
   <!-- BOOTSTRAP CDN -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 
   <!-- STYLESHEET -->
   <link rel="stylesheet" href="style.css">
@@ -22,27 +23,21 @@
 <body style="background-color: #FFFFFF; color: #000000">
 
   <!-- NAVBAR -->
-  <nav class="navbar navbar-expand-md navbar-light">
-    <div class="container">
-      <a class="navbar-brand" href="home.html">arnv.</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand" href="#">arnv.</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="home.html">Work</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="archive.html">Archive</a>
-          </li>
-        </ul>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ms-auto">
+        <a class="nav-link" href="#">Work</a>
+        <a class="nav-link" href="#">About</a>
+        <a class="nav-link" href="#">Archive</a>
       </div>
     </div>
-  </nav>
+  </div>
+</nav>
 
   <!-- PROJECT BANNER MOBILE ONLY -->
   <img class="mob-view project-banner" src="assets\thumbnails\illus-mob-hca.svg" alt="Hands-Free Cooking Assistant Mobile Banner">
@@ -104,7 +99,7 @@
       <p class="project-block-heading">Defining the Problems</p>
       <p class="project-block-para">
         This being my <span class="highlight">1st UI/UX project</span>, I had to get familiar with the idea of a <span class="highlight">Problem Statement</span>. I learnt that framing a problem statement is essential because it highlights 2 elements - <span class="highlight">the users</span> and <span class="highlight">the purposes</span> they desire to accomplish.
-          <br />
+          <br /><br />
           I noted down some <span class="highlight">fundamental problems</span> that came to my mind that people might face while cooking and moved on to trying to get my assumptions validated.</p>
       </p>
     </div>
@@ -120,7 +115,16 @@
   <div class="container">
     <div class="project-block">
       <p class="project-block-heading">User Interviews</p>
-      <p class="project-block-para">I interviewed a total of <span class="highlight">7 people</span> from diverse backgrounds (home-makers, hostel dwellers, bachelors etc.) My aim was to <span class="highlight">validate my assumptions</span> and <span class="highlight">discover other issues</span> that they might be facing.</p>
+      <p class="project-block-para">I interviewed a total of <span class="highlight">7 people</span> from diverse backgrounds (home-makers, hostel dwellers, bachelors etc.) My aim was to <span class="highlight">validate my assumptions</span> and <span class="highlight">discover other issues</span> that they might be facing.
+        <br /><br />
+        <span style="display: block;">Some of the questions I asked were:
+          <ul>
+            <li>“When was the last time you tried to cook something new? What was that like?"</li>
+            <li>“What kind of cooking tutorials do you prefer?"</li>
+            <li>“How satisfied are you with the dishes you prepare?" etc.</li>
+          </ul>
+        </span>
+      </p>
       <img class="mob-view img-no-margin" src="assets\hca\hca-interview-m.svg" alt="User Interviews">
     </div>
   </div>
@@ -333,7 +337,7 @@
     integrity = "sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
     crossorigin = "anonymous" >
   </script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
