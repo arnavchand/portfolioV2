@@ -15,22 +15,31 @@
 
 /* NAVBAR CLASSES */
 .navbar {
-  background-color: #FAFAFA;
+  background-color: #FAFAFA !important;
+  /* filter: blur(8px);
+  -webkit-filter: blur(8px); */
   padding: 0;
   color: #707070;
+  opacity: 0.95;
 }
 
 .navbar-brand {
   font-family: 'pn', sans-serif;
   padding: 0;
   font-size: 28px;
-  font-weight: 500;
+  font-weight: 600;
   color: #000000;
+  opacity: 1 !important;
 }
 
 .nav-link {
   padding: 20px 0 20px 60px !important;
-  font-size: 18px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.nav-link:hover{
+  color: #000000 !important;
 }
 
 /* .nav-item {
@@ -76,7 +85,7 @@ p {
 }
 
 .container {
-  width: 900px;
+  width:850px;
   padding: 0;
 }
 
@@ -120,8 +129,8 @@ h1 {
   line-height: 100%;
   letter-spacing: 0.01rem;
   font-size: 80px;
-  margin-top: 110px;
-  margin-bottom: 80px;
+  margin-top: 90px;
+  margin-bottom: 90px;
 }
 
 h2 {
@@ -271,7 +280,7 @@ h4 {
 
 .dlc-logo-block {
   width: 100%;
-  background-color: #0F0F0F;
+  background-color: transparent;
   border-radius: 5px;
   margin-bottom: 25px;
 }
@@ -362,6 +371,29 @@ h4 {
   margin-bottom: 40px;
 }
 
+/* HCA CLASSES */
+
+.hca-search-img {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+/* ABOUT CLASSES */
+
+.intern-company {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.intern-location {
+  font-size: 20px;
+  color: #747F8D;
+}
+
+.company-logo {
+  margin-bottom: 30px !important;
+}
+
 
 
 
@@ -401,6 +433,7 @@ h4 {
     background-color: #FAFAFA;
     padding: 25px 0 25px 0;
     color: #707070;
+    opacity: 0.95;
   }
 
   .navbar-toggler {
@@ -418,7 +451,7 @@ h4 {
     font-family: 'pn', sans-serif;
     padding: 0;
     font-size: 24px;
-    font-weight: 500;
+    font-weight: 600;
     color: #000000;
   }
 
@@ -666,6 +699,13 @@ h4 {
     margin-bottom: 0;
   }
 
+  /* HCA CLASSES */
+
+  .hca-search-img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
 
 
 }
@@ -700,13 +740,14 @@ h4 {
     background-color: #FAFAFA;
     padding: 0;
     color: #707070;
+    opacity: 0.95;
   }
 
   .navbar-brand {
     font-family: 'pn', sans-serif;
     padding: 0;
     font-size: 24px;
-    font-weight: 500;
+    font-weight: 600;
     color: #000000;
   }
 
@@ -898,7 +939,7 @@ h4 {
 
   .dlc-logo-block {
     width: 100%;
-    background-color: #0F0F0F;
+    background-color: transparent;
     border-radius: 5px;
     margin-bottom: 25px;
   }
@@ -995,13 +1036,14 @@ h4 {
     background-color: #FAFAFA;
     padding: 0;
     color: #707070;
+    opacity: 0.95;
   }
 
   .navbar-brand {
     font-family: 'pn', sans-serif;
     padding: 0;
     font-size: 24px;
-    font-weight: 500;
+    font-weight: 600;
     color: #000000;
   }
 
@@ -1192,7 +1234,7 @@ h4 {
 
   .dlc-logo-block {
     width: 100%;
-    background-color: #0F0F0F;
+    background-color: transparent;
     border-radius: 5px;
     margin-bottom: 25px;
   }
