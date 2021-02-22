@@ -100,7 +100,7 @@ p {
 }
 
 .grey-section {
-  background-color: #0F0F0F;
+  background-color: #0C0C0C;
   padding-top: 120px;
   padding-bottom: 100px;
 }
@@ -176,7 +176,7 @@ h4 {
 }
 
 .project-details-dark {
-  background-color: #0F0F0F;
+  background-color: #0C0C0C;
 }
 
 .project-summary, .project-summary-dark {
@@ -259,6 +259,16 @@ h4 {
 }
 
 .get-in-touch-button {
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 100px;
+  padding: 15px 25px 15px 25px;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 100px;
+}
+
+.resume-button {
   background-color: transparent;
   border: 1px solid black;
   border-radius: 100px;
@@ -380,18 +390,57 @@ h4 {
 
 /* ABOUT CLASSES */
 
+
 .intern-company {
   font-size: 24px;
   font-weight: 600;
+  margin-bottom: 10px;
 }
 
 .intern-location {
-  font-size: 20px;
+  font-size: 18px;
   color: #747F8D;
+  font-weight: 400;
+}
+
+.intern-position {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
+.intern-description {
+  font-size: 18px;
+  color: #747F8D;
+  font-weight: 500;
 }
 
 .company-logo {
   margin-bottom: 30px !important;
+  opacity: 40%;
+}
+
+.company-logo:hover {
+  /* filter: contrast(300%); */
+  opacity: 100%;
+}
+
+.hobby-icon {
+  margin-bottom: 15px;
+}
+
+.hobby-name {
+  font-size: 20px;
+  line-height: 140%;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.hobby-description {
+  font-size: 18px;
+  color: #747F8D;
+  line-height: 160%;
 }
 
 
@@ -540,7 +589,7 @@ h4 {
   }
 
   .project-heading-block-dark {
-    background-color: #0F0F0F;
+    background-color: #0C0C0C;
     padding: 70px 0 70px 0;
     margin-bottom: 0;
   }
@@ -616,6 +665,16 @@ h4 {
   }
 
   .get-in-touch-button {
+    background-color: transparent;
+    border: 1px solid #000000;
+    border-radius: 100px;
+    padding: 10px 20px 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 50px;
+  }
+
+  .resume-button {
     background-color: transparent;
     border: 1px solid #000000;
     border-radius: 100px;
@@ -705,6 +764,58 @@ h4 {
     width: 100%;
     margin-bottom: 20px;
   }
+
+
+  /* ABOUT CLASSES */
+
+
+  .intern-company {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+
+  .intern-location {
+    font-size: 16px;
+    color: #747F8D;
+    font-weight: 400;
+  }
+
+  .intern-position {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 25px;
+  }
+
+  .intern-description {
+    font-size: 16px;
+    color: #747F8D;
+    font-weight: 500;
+  }
+
+  .company-logo {
+    margin-bottom: 30px !important;
+    opacity: 40%;
+  }
+
+  .hobby-icon {
+    margin-bottom: 15px;
+  }
+
+  .hobby-name {
+    font-size: 18px;
+    line-height: 140%;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+
+  .hobby-description {
+    font-size: 16px;
+    color: #747F8D;
+    line-height: 160%;
+  }
+
 
 
 
@@ -839,7 +950,7 @@ h4 {
   }
 
   .project-details-dark {
-    background-color: #0F0F0F;
+    background-color: #0C0C0C;
   }
 
   .project-summary, .project-summary-dark {
@@ -919,6 +1030,15 @@ h4 {
   }
 
   .get-in-touch-button {
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 100px;
+    padding: 10px 20px 10px 20px;
+    font-size: 16px;
+    margin-bottom: 60px;
+  }
+
+  .resume-button {
     background-color: transparent;
     border: 1px solid black;
     border-radius: 100px;
@@ -1022,6 +1142,69 @@ h4 {
     padding: 0;
     margin-bottom: 20px;
   }
+
+  /* HCA CLASSES */
+
+  .hca-search-img {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  /* ABOUT CLASSES */
+
+
+  .intern-company {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  .intern-location {
+    font-size: 16px;
+    color: #747F8D;
+    font-weight: 400;
+  }
+
+  .intern-position {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+
+  .intern-description {
+    font-size: 16px;
+    color: #747F8D;
+    font-weight: 500;
+  }
+
+  .company-logo {
+    margin-bottom: 30px !important;
+    opacity: 40%;
+  }
+
+  .company-logo:hover {
+    /* filter: contrast(300%); */
+    opacity: 100%;
+  }
+
+  .hobby-icon {
+    margin-bottom: 15px;
+  }
+
+  .hobby-name {
+    font-size: 18px;
+    line-height: 140%;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+
+  .hobby-description {
+    font-size: 16px;
+    color: #747F8D;
+    line-height: 160%;
+  }
+
 }
 
 
@@ -1137,7 +1320,7 @@ h4 {
   }
 
   .project-details-dark {
-    background-color: #0F0F0F;
+    background-color: #0C0C0C;
   }
 
   .project-summary, .project-summary-dark {
@@ -1217,6 +1400,16 @@ h4 {
   }
 
   .get-in-touch-button {
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 100px;
+    padding: 10px 20px 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 80px;
+  }
+
+  .resume-button {
     background-color: transparent;
     border: 1px solid black;
     border-radius: 100px;
