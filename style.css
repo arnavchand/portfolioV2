@@ -1,3 +1,10 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+
 /* FONT EMBEDDING */
 @font-face {
     font-family: "pn";
