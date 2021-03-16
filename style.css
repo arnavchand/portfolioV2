@@ -231,9 +231,9 @@ h4 {
 }
 
 .project-block-heading {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 500;
-  font-style: italic;
+  /* font-style: italic; */
   font-size: 28px;
   line-height: 130%;
   margin-bottom: 25px;
@@ -681,9 +681,9 @@ h4 {
   }
 
   .project-block-heading {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 500;
-    font-style: italic;
+    /* font-style: italic; */
     font-size: 20px;
     line-height: 130%;
     margin-bottom: 20px;
@@ -1066,9 +1066,9 @@ h4 {
   }
 
   .project-block-heading {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 500;
-    font-style: italic;
+    /* font-style: italic; */
     font-size: 24px;
     line-height: 130%;
     margin-bottom: 20px;
@@ -1468,9 +1468,9 @@ h4 {
   }
 
   .project-block-heading {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 500;
-    font-style: italic;
+    /* font-style: italic; */
     font-size: 28px;
     line-height: 130%;
     margin-bottom: 30px;
